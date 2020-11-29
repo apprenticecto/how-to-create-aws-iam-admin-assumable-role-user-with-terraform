@@ -72,7 +72,7 @@ The code contained in this repo was built upon the following documentation:
 
 - [Security best practices in IAM](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html)
 - [AWS Identity and Access Management (IAM) Terraform module and submodules](https://registry.terraform.io/modules/terraform-aws-modules/iam/aws/latest) and [examples](https://github.com/terraform-aws-modules/terraform-aws-iam/tree/master/examples). 
-- [modules code](https://github.com/terraform-aws-modules/terraform-aws-iam/tree/master/modules). 
+- [Modules code](https://github.com/terraform-aws-modules/terraform-aws-iam/tree/master/modules). 
 
 ## Authors
 
