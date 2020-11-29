@@ -33,7 +33,7 @@ module "iam_user_login_access_key" {
 }
 
 #############################################################################################
-# IAM group where user1 and user2 are allowed to assume admin role in production AWS account
+# IAM group where IAM user is allowed to assume admin role in current AWS account
 #############################################################################################
 
 data "aws_caller_identity" "current" {}
@@ -53,7 +53,7 @@ module "iam_group_complete" {
 }
 
 ####################################################
-# Extending policies of IAM group production-admins
+# Extending policies of IAM group admins
 ####################################################
 module "iam_group_complete_with_custom_policy" {
   source  = "terraform-aws-modules/iam/aws//modules/iam-group-with-policies"
