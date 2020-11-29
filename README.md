@@ -32,7 +32,7 @@ Now enter `gpg --export "your_username" | base64` to convert your public key to 
 
 Now you can add the output to the string into the `main.tf` file.
 
-If you prefer using keybase](keybase.io), you can create a txt file with your just exported key and upload it into your `public/your_username` path and reference the pgp_key in `main.tf` as `keybase:your_username`.
+If you prefer using [keybase](keybase.io), you can create a txt file with your just exported key and upload it into your `public/your_username` path and reference the pgp_key in `main.tf` as `keybase:your_username`.
 
 #### Grant Administrator permission in the Account
 
